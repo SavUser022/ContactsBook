@@ -1,0 +1,17 @@
+#pragma once
+//#include "framework.h"
+class Contact
+{
+private:
+	std::string name;
+	std::string city;
+	std::string phone;
+public:
+	Contact();
+	Contact(std::string name, std::string city, std::string phone);
+	std::string getName() const;
+	std::string getCity() const;
+	std::string getPhone() const;
+
+};
+
